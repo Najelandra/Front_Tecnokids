@@ -1,0 +1,167 @@
+.coursename {
+    font-weight: bold;
+    color: #003C44;
+    text-transform: uppercase;
+}
+
+
+
+
+.container {
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    background-color: #F8DAD4;
+}
+
+.courseitem {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.main {
+    background-color: white;
+}
+
+@media (min-width: 767px) {
+
+    /* Versión web */
+    .main {
+        width: 60%;
+        margin: 0 auto;
+        padding: 57px;
+    }
+
+    .focus {
+        margin-left: 15%;
+        margin-top: -5%;
+    }
+
+    .courseitem {
+        display: none;
+    }
+
+    .dial {
+        position: absolute;
+        margin-top: 15%;
+        width: inherit;
+    }
+}
+
+@media (max-width: 767px) {
+
+    /* Versión movil */
+    .main {
+        width: 100%;
+        margin: 0 auto;
+        padding: 30px;
+    }
+
+    .courseitem {
+        width: 79%;
+    }
+
+    .focus {
+        width: 60px;
+        margin-left: 25%;
+        margin-top: -20%;
+    }
+
+    .courseitemmv {
+        display: none;
+    }
+
+    .dial {
+        position: absolute;
+        margin-top: 50%;
+        width: inherit;
+    }
+}
+
+.dialog {
+    border: 1px solid black;
+    margin: 10px;
+    background: white;
+    box-shadow: 1px 12px 33px rgba(0, 0, 0, 0.5);
+    border: 25px solid white;
+    content: '';
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+}
+
+.personaje {
+    width: 40%;
+}
+
+.txtteal {
+    color: #45B7C0;
+    font-weight: bold;
+}
+
+.focus {
+    position: absolute;
+    animation-name: parpadeo;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: parpadeo;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes parpadeo {
+    0% {
+        opacity: 1.0;
+    }
+
+    50% {
+        opacity: 0.0;
+    }
+
+    100% {
+        opacity: 1.0;
+    }
+}
+
+@-webkit-keyframes parpadeo {
+    0% {
+        opacity: 1.0;
+    }
+
+    50% {
+        opacity: 0.0;
+    }
+
+    100% {
+        opacity: 1.0;
+    }
+}
+
+@keyframes parpadeo {
+    0% {
+        opacity: 1.0;
+    }
+
+    50% {
+        opacity: 0.0;
+    }
+
+    100% {
+        opacity: 1.0;
+    }
+}
+
+.gitem {
+    width: 50%;
+}
+
+.couseInsideList {
+    padding: 0%;
+}
+
+
+.disabledCursor {
+    cursor: default;
+}

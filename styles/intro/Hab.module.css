@@ -1,0 +1,67 @@
+.container {
+    text-align: center;
+    background-color: #F8DAD4;
+}
+
+.main {
+    background-color: white;
+}
+
+@media (min-width: 768px) {
+    /* Versión web */
+    .main {
+        width: 60%;
+        margin: 0 auto;
+        padding: 57px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Versión movil */
+    .main {
+        width: 100%;
+        margin: 0 auto;
+        padding: 30px;
+    }
+}
+
+
+/* mobile */
+
+.column1 {
+    float: left;
+    width: 25%;
+}
+
+
+/* mobile */
+
+.column2 {
+    float: left;
+    width: 70%;
+}
+
+
+/* mobile */
+
+.column1b {
+    float: left;
+    width: 30%;
+}
+
+
+/* mobile */
+
+.column2b {
+    float: left;
+    width: 60%;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

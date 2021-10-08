@@ -1,0 +1,191 @@
+.logo2334a {
+    /* width: 150px; */
+    padding-left: 30px;
+}
+
+.footerweb {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 600px) {
+    .footermobile {
+        display: block;
+    }
+
+    .footerweb {
+        display: none;
+    }
+}
+
+@media (min-width: 600px) {
+    .footermobile {
+        display: none;
+    }
+
+    .footerweb {
+        display: block;
+    }
+}
+
+.logoapoyo {
+    /* width: 290px; 
+     padding-bottom: 10px;*/
+    padding-top: 10px;
+
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.lgouno {
+    text-align: right;
+    margin-left: 50px;
+}
+
+.logosfoot {
+    padding: 12px 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.siguenos {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+
+.footer {
+    height: 100%;
+
+    /*  display: flex;
+      */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #62BFCF;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1px;
+}
+
+.iconossvg {
+    padding-left: 20px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.websig {
+    /* width: 150px; */
+    padding-left: 35%;
+    padding-right: 35%;
+}
+
+.lgounoleft {
+    padding-top: 10px;
+    width: 70%;
+    padding-left: 30%;
+
+}
+
+.lgounoright {
+    padding-top: 10px;
+    width: 70%;
+    padding-right: 30%;
+}
+
+
+
+
+
+@media screen and (min-width: 700px) {
+
+    /* web */
+    .column {
+      float: left;
+      width: 50%;
+    }
+  
+    .column3 {
+      float: left;
+      width: 33.3%;
+    }
+  }
+  
+  .columnfoot {
+    float: left;
+    width: 50%;
+  }
+
+  @media screen and (max-width: 700px) {
+  
+    /* mobile */
+    .column {
+      float: left;
+      width: 100%;
+    }
+  
+    .column3 {
+      float: left;
+      width: 33.3%;
+    }
+  
+  }
+  
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .row3:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+
+
+
+@media (min-width: 768px) {
+    /* Versión web */
+    .main {
+        width: 40%;
+        margin: 0 auto;
+        
+    }
+  }
+  
+  @media (max-width: 768px) {
+    /* Versión movil */
+    .main {
+        width: 90%;
+        margin: 0 auto;
+      
+    }
+  }
+  

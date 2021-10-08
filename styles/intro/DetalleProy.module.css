@@ -1,0 +1,348 @@
+.container {
+    text-align: center;
+    background-color: #F8DAD4;
+}
+
+.main {
+    background-color: white;
+}
+
+.column1proyb {
+    float: left;
+    width: 20%;
+    padding: 2%;
+    text-align: right;
+    vertical-align: middle !important;
+}
+
+/* web */
+@media (min-width: 768px) {
+
+    .column1proy {
+        float: left;
+        width: 50%;
+        padding: 2%;
+    }
+ 
+    /* Versión web */
+
+    .main {
+        width: 60%;
+        margin: 0 auto;
+        padding: 57px;
+    }
+
+  
+    .column1 {
+        float: left;
+        width: 25%;
+        padding: 2%;
+    }
+
+    .column2 {
+        float: left;
+        width: 25%;
+        padding: 2%;
+    }
+
+    .column2name {
+        float: left;
+        width: 20%;
+       
+    }
+    .column3name {
+        float: left;
+        width: 35.3%;
+    }
+
+    .column3 {
+        float: left;
+        width: 33.3%;
+    }
+    .imgsinsign {
+        height: 105px ;
+        margin-left: 2vw;
+    }
+    .nameinsign {
+        height: 20px;
+        color: #0E153E;
+        font-family: Kg-second-chances;
+    }
+
+
+.column1proya {
+    float: left;
+    width: 80%;
+    padding: 2%;
+    vertical-align: middle !important;
+}
+}
+
+@media (max-width: 768px) {
+
+    .column1proy {
+        float: left;
+        width: 100%;
+        padding: 2%;
+    }
+
+    /* Versión movil */
+    .main {
+        width: 100%;
+        margin: 0 auto;
+        padding: 30px;
+    }
+
+    /* mobile */
+
+    .column1 {
+        float: left;
+        width: 50%;
+    }
+
+
+    /* mobile */
+
+    .column2 {
+        float: left;
+        width: 50%;
+    }
+
+
+    .column3 {
+        float: left;
+        width: 50%;
+    }
+    .imgsinsign {
+        width: 150px;
+       
+    }
+    .nameinsign {
+        color: #0E153E;
+        font-family: Kg-second-chances;
+    }
+
+
+.column1proya {
+    float: left;
+    width: 100%;
+    padding: 2%;
+    vertical-align: middle !important;
+}
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Insignias */
+
+.first {
+    border-radius: 25px;
+    background-color: #E66869;
+    border: 3px solid black;
+    padding: 9px;
+    padding-left: 20px;
+    font-weight: bold;
+    padding-right: 20px;
+    font-family: 'Kg-second-chances';
+    font-size: 23px;
+    color: white;
+    margin: 10px;
+}
+
+.firstinact {
+    border-radius: 25px;
+    border: 3px solid black;
+    padding: 9px;
+    padding-left: 20px;
+    font-weight: bold;
+    padding-right: 20px;
+    font-family: 'Kg-second-chances';
+    font-size: 23px;
+    color: #E66869;
+    margin: 10px;
+}
+
+.second {
+    border-radius: 25px;
+    background-color: #4386C6;
+    border: 3px solid black;
+    padding: 9px;
+    padding-left: 20px;
+    font-weight: bold;
+    padding-right: 20px;
+    font-family: 'Kg-second-chances';
+    font-size: 23px;
+    color: white;
+    margin: 10px;
+}
+
+.secondinact {
+    border-radius: 25px;
+    border: 3px solid black;
+    padding: 9px;
+    padding-left: 20px;
+    font-weight: bold;
+    padding-right: 20px;
+    font-family: 'Kg-second-chances';
+    font-size: 23px;
+    color: #4386C6;
+    margin: 10px;
+}
+
+.third {
+    border-radius: 25px;
+    background-color: #F7C402;
+    border: 3px solid black;
+    padding: 9px;
+    padding-left: 20px;
+    font-weight: bold;
+    padding-right: 20px;
+    font-family: 'Kg-second-chances';
+    font-size: 23px;
+    color: white;
+    margin: 10px;
+}
+
+.thirdinac {
+    border-radius: 25px;
+    border: 3px solid black;
+    padding: 9px;
+    padding-left: 20px;
+    font-weight: bold;
+    padding-right: 20px;
+    font-family: 'Kg-second-chances';
+    font-size: 23px;
+    color: #F7C402;
+    margin: 10px;
+}
+
+.fourth {
+    border-radius: 25px;
+    background-color: #7DC4CA;
+    border: 3px solid black;
+    padding: 9px;
+    padding-left: 20px;
+    font-weight: bold;
+    padding-right: 20px;
+    font-family: 'Kg-second-chances';
+    font-size: 23px;
+    color: white;
+    margin: 10px;
+}
+
+.fourthinact {
+    border-radius: 25px;
+    border: 3px solid black;
+    padding: 9px;
+    padding-left: 20px;
+    font-weight: bold;
+    padding-right: 20px;
+    font-family: 'Kg-second-chances';
+    font-size: 23px;
+    color: #7DC4CA;
+    margin: 10px;
+}
+
+.fifth {
+    border-radius: 25px;
+    background-color: #E1262F;
+    border: 3px solid black;
+    padding: 9px;
+    padding-left: 20px;
+    font-weight: bold;
+    padding-right: 20px;
+    font-family: 'Kg-second-chances';
+    font-size: 23px;
+    color: white;
+    margin: 10px;
+}
+
+.fifthinact {
+    border-radius: 25px;
+    border: 3px solid black;
+    padding: 9px;
+    padding-left: 20px;
+    font-weight: bold;
+    padding-right: 20px;
+    font-family: 'Kg-second-chances';
+    font-size: 23px;
+    color: #E1262F;
+    margin: 10px;
+}
+
+.sixth {
+    border-radius: 25px;
+    border: 3px solid black;
+    padding: 9px;
+    padding-left: 20px;
+    font-weight: bold;
+    padding-right: 20px;
+    font-family: 'Kg-second-chances';
+    font-size: 23px;
+    color: #153234;
+    margin: 10px;
+}
+
+.sixthinact {
+    border-radius: 25px;
+    background-color: #153234;
+    border: 3px solid black;
+    padding: 9px;
+    padding-left: 20px;
+    font-weight: bold;
+    padding-right: 20px;
+    font-family: 'Kg-second-chances';
+    font-size: 23px;
+    color: white;
+    margin: 10px;
+}
+
+
+.centerimg {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+    
+    margin-bottom: 1px;
+    text-align: center;
+}
+
+@media (min-width: 566px) {
+    .inguser{
+        width: 125px;
+        position: absolute;
+    }
+    .txtuser{
+        margin-left: 185px;
+        text-align: left;
+    }
+}
+
+@media (max-width: 566px) {
+    .inguser{
+        width: 85px;
+        position: absolute;
+    }
+    .txtuser{
+        margin-left: 105px;
+        text-align: left;
+    }
+}
+
+
+/*
+   style={{
+                   
+                    'position': 'absolute',
+                    'borderRadius': '65px',
+                    'marginLeft': '20px'
+                }} 
+*/

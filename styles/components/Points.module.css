@@ -1,0 +1,30 @@
+.item {
+  padding: 15px;
+  margin-top: 2px;
+  /*  margin-left: 20px; */
+  cursor: pointer;
+ /* margin-left: 10px; */
+}
+
+
+@media (min-width: 768px) {
+  /* Versión web */
+  .main {
+      width: 70%;
+      margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Versión movil */
+  .main {
+
+      width: 90%;
+      margin: 0 auto;
+
+  }
+}
+
+.main {
+  min-height: 20px;
+}

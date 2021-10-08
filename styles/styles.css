@@ -1,0 +1,38 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+/* Titulos */
+
+@font-face {
+    font-family: "Kg-second-chances";
+    src: url("/fonts/KGSecondChancesSolid.ttf");
+}
+
+
+/* Conectores SVGs  */
+
+@font-face {
+    font-family: "DK-Buttered-Toast";
+    src: url("/fonts/DKButteredToast.otf");
+}
+
+
+/* Textos negrita */
+
+
+@font-face {
+    font-family: "Nunito-Bold";
+    src: url("/fonts/Nunito-Bold.ttf");
+}
+
+/* Textos simples */
+
+
+@font-face {
+    font-family: "Nunito-Semibold";
+    src: url("/fonts/Nunito-SemiBold.ttf");
+}

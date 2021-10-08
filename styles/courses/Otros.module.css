@@ -1,0 +1,23 @@
+@media (min-width: 600px) {
+    .espaciobtn{
+        margin-top: 30px;
+        padding-left: 13vw;
+        padding-right: 13vw;
+    }
+    .sigbtn{
+        margin-top: 30px;
+        padding-left: 135px;
+        padding-right: 135px;
+    }
+}
+
+@media (max-width: 600px) {
+    .espaciobtn{
+        margin-top: 30px;
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+    .sigbtn{
+        margin-top: 30px;
+    }
+}

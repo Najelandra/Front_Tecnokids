@@ -1,0 +1,29 @@
+.main{
+    text-align:center;
+
+}
+
+.titulo1{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+
+.btn1{
+    background-color: #45B7C0 ;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.imgprinc{
+    width: 70%;
+    text-align: center;
+    justify-content: center;
+    margin-left: 15%;
+}
+
+.logo{
+    width: 120px;
+}

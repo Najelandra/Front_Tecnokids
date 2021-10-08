@@ -1,0 +1,133 @@
+.courseitemnv {
+    /*
+    background-color: #E7E5E6;
+    border-radius: 25px;
+    font-weight: bold;
+    padding: 50px;
+    color: #003C44;
+
+
+.courseitem {
+    background-color: #FFC81D;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 50px;
+    cursor: pointer;
+    color: #003C44;
+}
+
+    */
+    padding: 1%;
+}
+
+.container {
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    background-color: #F8DAD4;
+}
+
+.main {
+    background-color: white;
+    min-height: 400px;
+}
+
+@media (min-width: 768px) {
+    /* Versión web */
+    .focus {
+        margin-left: 20%;
+        margin-top: 4.5%;
+    }
+    .main {
+        /* width: 40%; 
+        margin: 0 auto; */
+        width: 48%;
+        margin: 0 auto;
+        padding: 57px;
+    }
+    .dial {
+        position: absolute;
+        width: inherit;
+        margin-top: -30%;
+    }
+    .courseitem {
+        display: none;
+    }
+    .disabledCursor {
+        cursor: default;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Versión mobile */
+    .focus {
+        width: 60px;
+        margin-left: 60%;
+        margin-top: 16%;
+    }
+    .main {
+        width: 100%;
+        margin: 0 auto;
+        padding: 30px;
+    }
+    .dial {
+        position: inherit;
+        margin-top: -86%;
+        /* -246px; */
+    }
+    .courseitem3d {
+        display: none;
+    }
+    .disabledCursor {
+        cursor: default;
+    }
+}
+
+.focus {
+    position: absolute;
+    cursor: pointer;
+    animation-name: parpadeo;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: parpadeo;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes parpadeo {
+    0% {
+        opacity: 1.0;
+    }
+    50% {
+        opacity: 0.0;
+    }
+    100% {
+        opacity: 1.0;
+    }
+}
+
+@-webkit-keyframes parpadeo {
+    0% {
+        opacity: 1.0;
+    }
+    50% {
+        opacity: 0.0;
+    }
+    100% {
+        opacity: 1.0;
+    }
+}
+
+@keyframes parpadeo {
+    0% {
+        opacity: 1.0;
+    }
+    50% {
+        opacity: 0.0;
+    }
+    100% {
+        opacity: 1.0;
+    }
+}

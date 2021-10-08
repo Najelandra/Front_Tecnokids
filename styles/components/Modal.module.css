@@ -1,0 +1,13 @@
+.close {
+    background-color: #D5373E;
+    color: white;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.centerimg {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 15px;
+}

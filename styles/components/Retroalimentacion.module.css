@@ -1,0 +1,59 @@
+.cajatexto {
+    /* position: relative; */
+}
+
+.texto {
+    /* position: absolute !important; */
+    background-color: #FFC3C7;
+    border-left: 15px solid #FF0D41;
+    border-bottom: 15px solid #FF0D41;
+    border-top: 15px solid #FFE7E8;
+    border-right: 15px solid #FFE7E8;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Nunito-Semibold;
+    vertical-align: middle !important;
+    outline: 5px solid black;
+    font-size: 23px;
+}
+
+.textobien {
+    /* position: absolute !important; */
+    background-color: #C1E3E5;
+    border-left: 15px solid #7DC4CA;
+    border-bottom: 15px solid #7DC4CA;
+    border-top: 15px solid #EDF8F5;
+    border-right: 15px solid #EDF8F5;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Nunito-Semibold;
+    vertical-align: middle !important;
+    outline: 5px solid black;
+    font-size: 23px;
+}
+
+@media (min-width: 600px) {
+
+    .starfondo {
+        width: 40%;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .starfondo {
+        width: 90%;
+    }
+
+}
+
+.personaje,
+.starfondo {
+    display: block;
+    margin: 0 auto;
+}

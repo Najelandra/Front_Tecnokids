@@ -1,0 +1,15 @@
+.background{
+    background-color: #45B7C0;
+}
+
+.logo{
+    width: 100px;
+}
+
+.btn1{    
+    color: white; 
+    padding: 10px;
+    border-radius: 15px;
+    margin: 15px;
+    cursor: pointer;
+}

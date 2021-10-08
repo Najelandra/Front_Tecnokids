@@ -1,0 +1,122 @@
+.txtizq {
+    text-align: right;
+    vertical-align: center;
+    padding: 70px 0;
+}
+
+@media (min-width: 768px) {
+    .main {
+        width: 40%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .main {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+.txtder {
+    text-align: right;
+}
+
+.itact {
+    border: 1px solid gray;
+    border-radius: 25px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.btnCont {
+    text-align: center;
+    background-color: #4BB7BF;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+    width: inherit;
+    display: block;
+    /*  border-bottom: 5px solid #3B6D72;
+    border-right: 5px solid #3B6D72; */
+    bottom: 1%;
+    cursor: pointer;
+    font-family: 'Nunito-Bold';
+    font-size: 18pt;
+    width: 100%;
+    /* position: fixed; */
+}
+
+.btnCont2 {
+    text-align: center;
+    background-color: #E5E5E5;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    width: inherit;
+    display: block;
+    border-bottom: 5px solid #3B6D72;
+    border-right: 5px solid #3B6D72;
+    bottom: 1%;
+    width: 100%;
+    /* position: fixed; */
+    cursor: pointer;
+}
+
+.appG {
+    position: relative;
+    min-height: 400px;
+    max-width: 100%;
+}
+
+.row3:after {
+    content: "";
+    display: table;
+    clear: both;
+    text-align: center;
+}
+
+.column3 {
+    float: left;
+    text-align: center;
+    font-family: 'Kg-second-chances';
+    width: 67%;
+    color: #E66869;
+    font-size: 18pt;
+    margin-top: 2vw;
+}
+
+.column3a {
+    float: left;
+    width: 10%;
+}
+
+.column3b {
+    float: left;
+    width: 20%;
+    padding-left: 1%;
+}
+
+.imageUpload {
+    text-align: center;
+    background-color: #657f81;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+    width: inherit;
+    display: block;
+    /*  border-bottom: 5px solid #3B6D72;
+    border-right: 5px solid #3B6D72; */
+    bottom: 1%;
+    cursor: pointer;
+    font-family: 'Nunito-Bold';
+    font-size: 18pt;
+    width: 100%;
+    justify-content: center;
+    /* position: fixed; */
+}
