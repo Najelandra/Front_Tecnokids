@@ -24,7 +24,7 @@ export function Naveg() {
                             <Link href="/intro/login">
                                 <a href="#" className={styles.btn1}>
 
-                                    INGRESAR
+                                    RETROCEDER
 
                                 </a>
                             </Link>
