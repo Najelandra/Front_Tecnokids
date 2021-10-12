@@ -109,7 +109,7 @@ export function Naveg() {
                         <Link href="/intro/login" className={styles.btn1}>
                             <a href="#" className={styles.btn1}>
 
-                                INGRESAR
+                                AQUÍ ES
 
                             </a>
                         </Link>
